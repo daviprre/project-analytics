@@ -1,0 +1,67 @@
+@media screen and (max-width: 1000px){
+    .container{
+        height: 200vh;
+    }
+    
+    .container .main{
+        flex-direction: column-reverse;
+        width: 70%;
+    }
+
+    .container .main .main__card-two{
+        width: 100%;
+        border-top-left-radius: 20px;   
+        border-top-right-radius: 20px;   
+    }
+    .container .main .main__card-two .main__card-image{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0;
+    }
+    .container .main .main__card-two .main__card-image .main__card-color{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0;
+    }
+    .container .main .main__card-one{
+        width: 80%;
+        text-align: center;
+        align-self: center;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .container .main{
+        height: 70%;
+        width: 80%;
+    }
+    .container .main .main__card-one{
+        width: 100%;
+    }
+    .container .main .main__card-one .main__card_title{
+        width: 100%;
+        margin: 0 10px 0 10px;
+
+    }
+    .container .main .main__card-one .main__card-description{
+        width: 100%;
+        margin: 0;
+
+    }
+    .container .main .main__card-one .main__card-data{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .main .main__card-one .main__card-data div{
+        margin-bottom: 20px;
+    }
+    .container .main .main__card-two{
+        height: 40%;
+
+    }
+    .container .main .main__card-two .main__card-image{
+        background-image: url(../assets/images/image-header-mobile.jpg);
+    }
+}
